@@ -44,5 +44,4 @@
 
 ## Модель базы данных
 
-![image](https://github.com/phoen17x/BoardGameStore/assets/95473692/a01914aa-d7e5-492e-81fd-19d560e56a6f)
-
+![image](https://github.com/phoen17x/BoardGameStore/assets/95473692/a6ab9d65-ea68-46b8-9a23-a25232de6b14)
