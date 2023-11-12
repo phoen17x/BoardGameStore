@@ -1,10 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGameStore.Api", "BoardGameStore.Api\BoardGameStore.Api.csproj", "{CABDCF16-36F4-4EFA-B8D7-B21EEC1CA535}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5AC700BF-41B7-49AC-8F31-D84EC335320E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGameStore.BL", "BoardGameStore.BL\BoardGameStore.BL.csproj", "{E1636169-8969-460D-A3C1-39520CD3DC21}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGameStore.WebAPI", "BoardGameStore.WebAPI\BoardGameStore.WebAPI.csproj", "{9784C715-87B9-47C2-8BC9-C10483571E0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGameStore.DataAccess", "BoardGameStore.DataAccess\BoardGameStore.DataAccess.csproj", "{0D2E0CE9-94DF-4430-8C6C-7741022596F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGameStore.BL", "BoardGameStore.BL\BoardGameStore.BL.csproj", "{6130FE66-30D3-4167-9CE1-BD1F1F34F50D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGameStore.DataAccess", "BoardGameStore.DataAccess\BoardGameStore.DataAccess.csproj", "{4E88186E-8134-4E30-A32A-DE03637CD64F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,17 +18,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CABDCF16-36F4-4EFA-B8D7-B21EEC1CA535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CABDCF16-36F4-4EFA-B8D7-B21EEC1CA535}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CABDCF16-36F4-4EFA-B8D7-B21EEC1CA535}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CABDCF16-36F4-4EFA-B8D7-B21EEC1CA535}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E1636169-8969-460D-A3C1-39520CD3DC21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E1636169-8969-460D-A3C1-39520CD3DC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E1636169-8969-460D-A3C1-39520CD3DC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E1636169-8969-460D-A3C1-39520CD3DC21}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0D2E0CE9-94DF-4430-8C6C-7741022596F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0D2E0CE9-94DF-4430-8C6C-7741022596F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0D2E0CE9-94DF-4430-8C6C-7741022596F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0D2E0CE9-94DF-4430-8C6C-7741022596F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9784C715-87B9-47C2-8BC9-C10483571E0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9784C715-87B9-47C2-8BC9-C10483571E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9784C715-87B9-47C2-8BC9-C10483571E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9784C715-87B9-47C2-8BC9-C10483571E0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6130FE66-30D3-4167-9CE1-BD1F1F34F50D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6130FE66-30D3-4167-9CE1-BD1F1F34F50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6130FE66-30D3-4167-9CE1-BD1F1F34F50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6130FE66-30D3-4167-9CE1-BD1F1F34F50D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E88186E-8134-4E30-A32A-DE03637CD64F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E88186E-8134-4E30-A32A-DE03637CD64F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E88186E-8134-4E30-A32A-DE03637CD64F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E88186E-8134-4E30-A32A-DE03637CD64F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
