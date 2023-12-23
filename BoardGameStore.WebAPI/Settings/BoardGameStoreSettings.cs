@@ -2,5 +2,5 @@
 
 public class BoardGameStoreSettings
 {
-    
+    public string BoardGameStoreDbContextConnectionString { get; set; }
 }

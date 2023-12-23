@@ -4,6 +4,9 @@ public static class BoardGameStoreSettingsReader
 {
     public static BoardGameStoreSettings Read(IConfiguration configuration)
     {
-        return new BoardGameStoreSettings();
+        return new BoardGameStoreSettings
+        {
+            BoardGameStoreDbContextConnectionString = configuration.GetValue<string>("BoardGameStoreDbContext")
+        };
     }
 }
